@@ -1,0 +1,21 @@
+mat-toolbar{
+    background-color: rgb(141, 82, 7);
+    display: flex;
+    justify-content: space-between;
+    font-family: Montserrat;
+}
+#icon{
+    background-image: url("../../png/cat.png");
+    margin-right: 1em;
+    margin-left: 0.3em;
+    
+}
+.name{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+span{
+    color: rgb(255, 255, 255);
+}

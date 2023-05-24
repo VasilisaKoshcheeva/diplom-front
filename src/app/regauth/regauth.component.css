@@ -1,0 +1,113 @@
+.div1 {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgb(245, 215, 173);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+    
+}
+
+.div2 {
+    height:fit-content;
+    width: 30em;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2.4em 3em;
+    font-family: Montserrat;
+    border-radius: 2em;
+    box-shadow: 12px 12px 2px 1px rgba(27, 14, 1, 0.666);
+}
+
+.inputt{
+    width: 100%;
+}
+p{
+    margin: 0;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: Montserrat;
+}
+
+.example-container mat-form-field+mat-form-field {
+    margin-left: 8px;
+    
+}
+
+.example-right-align {
+    text-align: right;
+    font-family: Montserrat;
+}
+
+input.example-right-align::-webkit-outer-spin-button,
+input.example-right-align::-webkit-inner-spin-button {
+    display: none;
+}
+#eyes{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+h1{
+    font-size: 250%;
+    font-weight: 700;
+    color: rgb(119, 65, 18);
+    margin-bottom: 1em;
+    font-family: Montserrat;
+}
+.button {
+    color: aliceblue;
+    background-color: rgb(141, 82, 7);
+    padding: .6em 3em .6em 3em;
+    font-size: 150%;
+    font-weight: 500;
+    border-radius: 55px;
+    border-color: transparent;
+    cursor: pointer;
+    box-shadow: 2px -1px 23px 3px rgba(0, 0, 0, 0.029);
+    margin-top: 10px;
+    width: 100%;
+    font-family: Montserrat;
+
+}
+
+.pic{
+    position: fixed;
+    bottom: 0px;
+    left: -6px;
+    z-index: 100;
+}
+#smallcat {
+    background-image: url("../../png/small_cat.png");
+    background-repeat: no-repeat;
+    height: 17em;
+    width: 17em;
+    margin: 0;
+    filter: drop-shadow(5px 5px 5px #222222a3);
+}
+.pic2{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 100;
+    margin-right: 10px;
+}
+#yard {
+    background-image: url("../../png/yarn-ball.png");
+    background-repeat: no-repeat;
+    height: 5em;
+    width: 7em;
+    margin: 0;
+    filter: drop-shadow(-5px 5px 5px #2222229d);
+}
+.span1{
+    height: fit-content;
+}

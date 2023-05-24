@@ -1,0 +1,23 @@
+<mat-drawer-container class="example-container" autosize style="display: block; position: fixed;">
+
+    <mat-drawer [opened]="draw" class="example-sidenav" mode="side" position="end" style="padding-left: 10px; padding-right: 10px;">
+        <div style="width: 100%; display: flex; flex-direction:column; align-items: stretch;">
+            <p class="pp">Элементы</p>
+            <button>Шапка</button>
+            <button>Поисковик</button>
+            <button>Список каталогов</button>
+            <button>Карточка товара</button>
+            <button>Фильтры</button>
+            <button>Контакты</button>
+        </div>
+        <button class="save" style="position: absolute; top:90%" routerLink="/userpage">Сохранить</button>
+    </mat-drawer>
+
+    <mat-drawer-content>
+        <div class="my-drawer-content" (click)="onButtonClick()">
+            <div class="button">
+                <app-primer></app-primer>
+            </div>
+        </div>
+    </mat-drawer-content>
+</mat-drawer-container>

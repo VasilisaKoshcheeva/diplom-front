@@ -1,0 +1,109 @@
+#bigcat {
+    background-image: url("../../png/big_cat.png");
+    background-repeat: no-repeat;
+    height: 36.5em;
+    width: 35em;
+    margin: 0;
+    filter: drop-shadow(5px 5px 5px #22222244);
+}
+#smallcat {
+    background-image: url("../../png/small_cat.png");
+    background-repeat: no-repeat;
+    height: 17em;
+    width: 17em;
+    margin: 0;
+    filter: drop-shadow(5px 5px 5px #22222257);
+}
+.pic{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+}
+h1 {
+    font-size: 352%;
+    font-weight: 700;
+    color: rgb(156, 71, 6);
+    text-shadow: 3px 3px 3px#fffdfbdf;
+    font-family: Montserrat;
+    text-align:start;
+    line-height:62px;
+    margin-bottom: 30px;
+    -webkit-text-stroke-width: .1px;
+    -webkit-text-stroke-color: rgba(166, 108, 21, 0.597);
+}
+
+#head {
+    width: 100vw;
+}
+
+.p1 {
+    width: 60%;
+    font-size: 140%;
+    font-weight: 500;
+    color: rgb(106, 52, 7);
+    font-family: Montserrat;
+    line-height:25px;
+}
+#div1{
+    position: absolute;
+    top: 18vh;
+    left: 10vw;
+}
+
+.p2{
+    width: 100%;
+    font-size: 140%;
+    font-weight: 500;
+    color: rgb(106, 52, 7);
+    height: fit-content;
+    position: relative;
+    top: 5px;
+    bottom: 20px;
+    font-family: Montserrat;
+}
+
+/*.button{
+    position: relative;
+    top: 5em;
+    right: 10em;
+    background-image: url("../../png/clubok.png");
+    object-fit: contain;
+    background-repeat: no-repeat;
+    width: 9.2em;
+    height:9em;
+    border: 0;
+    background-color: transparent;
+    text-transform:uppercase;
+    font-size: 100%;
+    font-weight: 700;
+    color: aliceblue;
+    padding: 0;
+    cursor: pointer;
+    filter: drop-shadow(3px 3px 3px #22222291);
+    
+}*/
+button {
+    color: aliceblue;
+    background-color:  rgba(106, 52, 7, 0.867);
+    padding: .8em 2.5em .8em 2.5em;
+    font-size: 150%;
+    font-weight: 500;
+    border-radius: 55px;
+    border-color: transparent;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.073);
+    margin-top: 30px;
+    cursor: pointer;
+    font-family: Montserrat;
+}
+.back{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: -1;
+    background-color: rgb(245, 215, 173);
+    
+}

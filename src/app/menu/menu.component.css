@@ -1,0 +1,14 @@
+#menu {
+    background-image: url("../../png/menu.png");
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+span {
+    display: flex;
+    justify-content: space-between;
+}

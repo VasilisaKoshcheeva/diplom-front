@@ -1,0 +1,85 @@
+h1 {
+    font-size: 250%;
+    font-weight: 700;
+    color: rgb(119, 65, 18);
+    margin-bottom: 0.1em;
+    font-family: Montserrat;
+    text-align: center;
+    justify-content: center;
+    margin-top: 0.3em;
+}
+
+.shablons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.shablon {
+    width: 40vw;
+    height: 18vw;
+    margin: 1em 2em;
+    border-radius: 10px;
+    border-style: groove;
+    border-width: 5px;
+    border-color: rgb(119, 65, 18);
+    -webkit-box-shadow: 0px 0px 8px 2px rgb(0, 0, 0) inset;
+    -moz-box-shadow: 0px 0px 8px 2px rgb(0, 0, 0) inset;
+    box-shadow: 0px 0px 8px 2px rgb(0, 0, 0) inset;
+    box-shadow: 10px 10px 2px 1px rgba(27, 14, 1, 0.666);
+    cursor:pointer;
+    display: flex;
+    align-items: start;
+}
+.shablon:hover{
+    box-shadow: 10px 10px 2px 1px rgba(27, 14, 1, 0);
+}
+
+#sh1 {
+    background-image: url('../../png/шаблон1.png');
+    background-size: 100% 100%;
+}
+
+#sh2 {
+    background-image: url('../../png/шаблон2.png');
+    background-size: 100% 100%;
+}
+
+#sh3 {
+    background-image: url('../../png/шаблон3.png');
+    background-size: 100% 100%;
+}
+
+#sh4 {
+    background-image: url('../../png/шаблон4.png');
+    background-size: 100% 100%;
+}
+.shsh{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 200, 137, 0.051);
+}
+.pp{
+    position: fixed;
+    color: rgb(255, 255, 255) ;
+    background-color: rgb(119, 65, 18);;
+    padding: .3em;
+    padding-left: 0.5em;
+    font-family: Montserrat;
+    border-bottom-right-radius: 10px;
+    font-size: x-large;
+    font-weight: 700;
+    text-shadow: 7px 7px 15px rgba(156, 74, 3, 0.604);
+    box-shadow: 2px 2px 1px 1px rgba(27, 14, 1, 0.711);
+}
+.back{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top:0;
+    z-index: -1;
+    background-color: rgb(245, 215, 173);
+    
+}

@@ -1,0 +1,200 @@
+h1 {
+    font-size: 230%;
+    font-weight: 700;
+    color: rgb(119, 65, 18);
+    margin-left: 0.5em;
+    font-family: Montserrat;
+    justify-content: center;
+    margin-top: 0.5em;
+}
+
+h2 {
+    font-size: 200%;
+    font-weight: 700;
+    color: rgb(119, 65, 18);
+    margin-right: 0.5em;
+    font-family: Montserrat;
+    justify-content: center;
+    margin-top: 0.8em;
+    cursor: pointer;
+}
+
+#bigdiv {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5em;
+
+}
+
+#mainphoto {
+    width: 30em;
+    height: 30em;
+    background-color: rgba(255, 179, 0, 0.064);
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: double;
+    border-width: 4px;
+    background-image: url("../../png/book.png");
+    background-position: 50%;
+
+    background-repeat: no-repeat;
+    
+    background-size: contain;
+    border-radius: .1em;
+    border: 0;
+}
+p{
+    font-size: larger;
+    font-family: Montserrat;
+}
+#minphoto {
+    background-color: rgb(139, 222, 239);
+    border-radius: 10px;
+    width: 6em;
+    height: 6em;
+    border-style: double;
+    border-width: 4px;
+    margin-right: .2em;
+}
+#minphoto2 {
+
+    border-radius: 10px;
+    width: 6em;
+    height: 6em;
+    border-style: double;
+    border-width: 4px;
+    background-color: rgba(255, 179, 0, 0.064);
+
+    background-image: url("../../png/book2.png");
+    background-position: 50%;
+
+    background-repeat: no-repeat;
+    
+    background-size: contain;
+
+}
+
+#photo {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+#photos {
+    display: flex;
+    flex-direction: column;
+}
+
+.plusphoto {
+    background-image: url("../../png/plus-sign.png");
+    filter: invert();
+    width: 40%;
+    height: 40%;
+    background-size: cover;
+    border-radius: .1em;
+    border: 0;
+    cursor: pointer;
+
+}
+
+#div2 {
+    width: 58em;
+    height: 38em;
+    border-radius: 10px;
+    border-style: double;
+    border-width: 4px;
+    padding: 0 2em 0 3em;
+    background-color:  rgb(173, 113, 39);
+
+}
+#div2 h1{
+    font-size: 200%;
+    text-align: center;
+    color: white;
+}
+
+#h {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    color: rgb(119, 65, 18);
+    font-family: Montserrat;
+    color: white;
+}
+.input input{
+    width: 97%;
+    border: 2px rgb(0, 0, 0);
+    border-radius: 5px;
+    border-style: double;
+    padding: 10px;
+}
+.biginput{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+
+    color: rgb(119, 65, 18);
+    font-family: Montserrat;
+    color: rgb(254, 242, 232);
+}
+.biginput textarea{
+    width: 97%;
+    height: 25%;
+    border: 2px rgb(0, 0, 0);
+    border-radius: 5px;
+    border-style: double;
+    padding: 10px;
+}
+button {
+    color: aliceblue;
+    background-color:  rgba(106, 52, 7, 0.867);
+    padding: .5em 2em .5em 2em;
+    font-size: 150%;
+    font-weight: 500;
+    border-radius: 55px;
+    border-color: transparent;
+    box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.252);
+    cursor: pointer;
+    font-family: Montserrat;
+    
+}
+button:hover{
+    box-shadow: none;
+}
+button:active{
+    color: rgba(106, 52, 7, 0.867);
+    background-color:   aliceblue;
+}
+#button{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: .7em;
+}
+.pic{
+    position: fixed;
+    bottom: 0px;
+    left: -6px;
+    z-index: 100;
+}
+#smallcat {
+    background-image: url("../../png/small_cat.png");
+    background-repeat: no-repeat;
+    height: 12em;
+    width: 12em;
+    margin: 0;
+    filter: drop-shadow(5px 5px 5px #2222222b);
+    background-size: cover;
+}
